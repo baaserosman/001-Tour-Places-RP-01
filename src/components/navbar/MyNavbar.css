@@ -1,3 +1,6 @@
+.card {
+  max-width: 500px;
+}
 .navbar-nav {
   background-color: transparent;
   display: flex;
@@ -10,8 +13,25 @@
   text-decoration: none;
   padding: 1rem !important;
   background-color: transparent;
+  text-align: center;
 }
 .nav-link:hover {
   color: black !important;
   background-color: rgb(47, 127, 151);
+}
+
+@media only screen and (max-width: 820px) {
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+  .nav-link {
+    width: 800px;
+  }
+  .nav-link:hover {
+    color: black !important;
+    background-color: rgb(47, 127, 151);
+  }
+  .nav-link:last-child:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.377);
+  }
 }

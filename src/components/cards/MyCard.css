@@ -1,9 +1,11 @@
 .container {
   display: flex;
   justify-content: center;
+  padding: 1rem;
   gap: 2rem;
 }
 .card {
+  max-width: 500px;
   background-color: black !important;
   padding: 1rem;
   border: 2px solid yellow;
@@ -62,7 +64,7 @@ p {
 } */
 
 .card:hover p {
-  transform: translateY(0%);
+  transform: translateY(-5%);
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }

@@ -16,11 +16,13 @@ const MyCard = ({ data }) => {
               lg={4}
               key={id}
             >
-              <Card style={{ width: "40rem" }} key={id}>
+              <Card key={id}>
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
                 </Card.Body>
+
                 <Card.Img variant="top" src={image} />
+
                 <div className="text">
                   <p>{desc}</p>
                 </div>
