@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.card {
+  background-color: black !important;
+  padding: 1rem;
+  border: 2px solid yellow;
+  box-shadow: 2px 2px 20px 4px rgb(252, 252, 203);
+  border-radius: 20px !important;
+  transition: all 1s;
+}
+.card-title {
+  background-color: black;
+  text-align: left;
+  font-size: 2rem !important;
+}
+.card-body {
+  background-color: black;
+}
+
+.card p {
+  font-size: 0.8rem;
+  background-color: black;
+  text-align: center;
+  font-family: "Arial";
+}
+
+img {
+  box-shadow: 1px 1px 5px 1px rgb(252, 252, 203);
+  border-radius: 10px;
+  width: 25rem;
+  height: 20rem;
+  margin-bottom: 0.2rem;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(100%);
+  /* -moz-filter: grayscale(0%); */
+}
+
+#text {
+  position: relative;
+}
+.card-text {
+  padding: 1.1rem;
+  position: absolute;
+  transition: all;
+  visibility: hidden;
+}
+
+.card:hover .card-text {
+  visibility: visible;
+  transform: scale(3) translate(0 2rem);
+  bottom: 2rem;
+  right: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.596) !important;
+}
