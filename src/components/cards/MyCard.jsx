@@ -21,9 +21,9 @@ const MyCard = ({ data }) => {
                   <Card.Title>{title}</Card.Title>
                 </Card.Body>
                 <Card.Img variant="top" src={image} />
-                <Card.Body id="text">
-                  <Card.Text>{desc}</Card.Text>
-                </Card.Body>
+                <div className="text">
+                  <p>{desc}</p>
+                </div>
               </Card>
             </Col>
           );
