@@ -57,7 +57,10 @@ export const data = [
     title: "Northern Lights",
     desc: "Northern lights, the 'Aurora Borealis', named after the Dawn Goddess Aurora, are the natural glows that emerge in the sky with the interaction of the earth's magnetic field and charged particles from the Sun. This image, which makes most of us feel like in a fairy tale land, deserves to be visited at least once in a lifetime.",
     image:
-      "https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm9ydGhlcm4lMjBsaWdodHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "https://d20aeo683mqd6t.cloudfront.net/articles/title_images/000/038/943/original/pixta_43064884_S.jpg?2019&d=750x400",
+
+    // image:
+    //   "https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm9ydGhlcm4lMjBsaWdodHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
   },
   {
     id: 10,
